@@ -1,0 +1,6 @@
+//Buffer syntax
+
+1.buf.compare(otherBuffer); //compare buffer
+2.buf.copy(targetBuffer[,targetStart][,sourceStart],[,sourceEnd]); //copy buffer
+3.buf.slice([start][,end]); // slice buffer
+4.buf.length; //Buffer Length

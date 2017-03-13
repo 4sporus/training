@@ -1,0 +1,163 @@
+REPL - Read Eval Print loop.
+
+For Virtual Environment
+
+D:\Node js>node
+> function multiply(x,y)
+... {
+... return x*y;
+... }
+undefined
+> multiply(20,30)
+600
+
+.help        - Display help on all the commands.
+tab Keys     - Display the list of all commands.
+up/down keys - see the privious commands.
+.savefilename- Save the current node REPL session to a file.
+.loadfilename- load the spcified file in the current node REPL session.
+Ctrl + c     - terminate loop
+ctrl +c(twice)- exit from REPL
+ctrl +D       - exit from REPL
+.break        -exit from mulitiline expersiion.
+.clear        -exit from mulitiline expersiion.
+
+//Buffer syntax
+
+1.buf.compare(otherBuffer); //compare buffer
+2.buf.copy(targetBuffer[,targetStart][,sourceStart],[,sourceEnd]); //copy buffer
+3.buf.slice([start][,end]); // slice buffer
+4.buf.length; //Buffer Length
+
+
+// modules
+
+three types
+core module,local module,third party modules
+
+// important coe modles;
+-> http - http module includles classes,methods and events to create node.js http server.
+-> fs - fs module includles classes,methods and events to work with file I/o.
+-> queryString - querystring module includes methods to deal with query String .
+-> path - path
+->url
+->util
+
+// writing with simple module withlog .js
+
+
+//module.exports
+ -> it is an object
+
+
+//node package mangaer (NPM)
+
+verify with npm -v
+ to install higher verion -> npm install npm -g
+
+-> loacal and gloal install
+
+
+package.json -> simlar to web.xml
+
+C;\mynodeproj> npm install express --save 	//to install locally
+C;\mynodeproj> npm install -g express 		//to install globally 
+
+
+//to upadate package
+C;\mynodeproj> npm update <package name>
+
+//to uninstall the package
+
+npm uninstall
+
+//node.js file system 
+
+
+
+
+// writefile.js
+
+//to open file
+
+flag
+
+r  	: open file for reading. an exception occurs if the file does not exist
+r+ 	: open file for reding and writing.an exception occurs if the file does not exist.
+rs 	: open file for reading in synchronous mode.
+rs+     :open file for reading and writing, telling the os to open it synchronously. see notes for 'rs' about using this with caution
+w 	: open file for writing. the file is created(if it is exist) or truncated(if it exists)
+
+wx      :like w but failes if path exists
+w+      :open file for reading and writing.the file is created(if it is does not exist) or truncated(if it exists)
+wx+      :like 'w+' but  fails if path exists.
+a	: open file for appending. the file is created if doesn't exist.
+ax	: like 'a' but fails if path exists
+a+      : open file for reading and appending.the file is created(if it is does not exist)
+ax+	: like a+ but fails if path exists.
+
+
+
+
+24-feb-2017
+//task how to dislay the data in server;
+
+express is a framework 
+npm install -g express    (to install globally)
+npm install -save express (to install locally) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
